@@ -3695,6 +3695,13 @@ values:
         conflict: true
 
     -
+        name: RPL_WHOISASN
+        numeric: "569"
+        origin: "Used by InspIRCd's m_asn module."
+        format: "<client> <nick> 64496 :is connecting from AS64496 [Example Corp]"
+        comment: Used for displaying ASN info to IRCOps.
+
+    -
         name: RPL_REAWAY
         numeric: "597"
         origin: Unreal
