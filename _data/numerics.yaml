@@ -3697,9 +3697,9 @@ values:
     -
         name: RPL_WHOISASN
         numeric: "569"
-        origin: "Used by InspIRCd's m_asn module."
+        origin: InspIRCd
         format: "<client> <nick> 64496 :is connecting from AS64496 [Example Corp]"
-        comment: Used for displaying ASN info to IRCOps.
+        comment: "Used by InspIRCd's m_asn module."
 
     -
         name: RPL_REAWAY
